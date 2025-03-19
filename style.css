@@ -387,6 +387,78 @@ form p{
   line-height: 1.5;
   letter-spacing: 0.1em;
 }
+/* seventh section code start */
+
+#seventh-section{
+  padding: 100px 0;
+}
+
+#take-care-parent{
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-takecare-img{
+  width: 100%;
+}
+.single-takecare-img img{
+   width: 100%;
+}
+.single-take-carebox h3{
+  font-size: 30px;
+}
+.single-take-carebox p{
+  margin: 20px 0;
+}
+.single-take-carebox ul li{
+  list-style-position: inside;
+  margin: 10px 0;
+}
+
+/* footer section code start */
+
+footer{
+  background-color: #154360 ;
+  padding: 100px 0 50px 0;
+}
+
+#footer-parent{
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: white;
+  gap: 80px;
+}
+.single-footer {
+  width: 100%;
+}
+.single-footer h5{
+  margin-bottom: 25px;
+  letter-spacing: 4px;
+}
+.single-footertwo p{
+  margin: 15px;
+}
+.single-footertwo p a{
+  text-decoration: none;
+  color: white;
+}
+.single-footerthree ul{
+  display: flex;
+}
+.single-footerthree ul li{
+  list-style: none;
+}
+.single-footerthree ul li a{
+  text-decoration: none;
+  color: white;
+  margin: 0px 5px ;
+  background-color: #0a273863;
+  padding: 8px;
+}
 
 
 
@@ -474,6 +546,38 @@ form{
 .first-single-match{
   text-align: center;
 }
+/* sixth section media query code finished */
+
+/* seventh section media code start */
+#take-care-parent{
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+ 
+}
+.single-take-carebox{
+  margin-bottom: 70px;
+}
+/* seventh section media code finished */
+
+/* footer section media query start */
+#footer-parent{
+  display: block;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right:  30px;
+}
+.single-footer h5{
+  margin-top: 50px;
+  letter-spacing: 4px;
+}
+.single-footer{
+  text-align: center;
+}
+.single-footerthree ul{
+  display: flex;
+  justify-content: center;
+}
 
 
 }
@@ -548,8 +652,26 @@ form{
   margin-right: 70px;
  }
 
+/* sixth section media query code finished */
 
+/* seventh section media code start */
+#take-care-parent{
+  display: block;
+  margin-left: 70px;
+  margin-right: 70px;
+  
+}
+.single-take-carebox{
+  margin-bottom: 100px;
+}
 
+/* seventh section media code finished */
+
+/* footer section media query start */
+#footer-parent{
+  margin-left: 70px;
+  margin-right:  70px;
+}
 
 }
 
